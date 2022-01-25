@@ -146,6 +146,7 @@ Quote
 .quote {
     font: 300 36px "Roboto", sans-serif;
     font-style: italic;
+    padding: 0 65px;
 }
 
 .quote+span {
@@ -153,6 +154,7 @@ Quote
     color: black;
     font: 700 24px "Roboto", sans-serif;
     text-align: right;
+    padding: 0 65px;
 }
 
 /* ========================
