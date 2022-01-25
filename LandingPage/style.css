@@ -1,0 +1,179 @@
+/* ========================
+Main
+======================== */
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h3, p {
+    margin: 0;
+}
+
+.center-to-page {
+    max-width: 960px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.hero-flex-row {
+    display: flex;
+    gap: 25px;
+}
+
+header .hero-item {
+    width: 50%;
+}
+
+/* ========================
+Header
+======================== */
+header, footer {
+    background: #1f2937;
+    padding: 20px 0;
+}
+
+.hero {
+    margin: 100px 0;
+}
+
+.hero p {
+    margin-bottom: 15px;
+}
+
+header h1 {
+    color: #f9faf8;
+    font: 900 48px "Roboto", sans-serif;
+}
+
+header a,
+header p {
+    font: 300 18px "Roboto", sans-serif;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+header .logo {
+    font: 700 24px "Roboto", sans-serif;
+    color: #f9faf8;
+}
+
+.img-ph-one {
+    background: #6d747d;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ========================
+Navigation
+======================== */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+header nav a {
+    flex: 0 0 auto;
+}
+
+header .logo {
+    margin-right: auto;
+}
+
+/* ========================
+Button
+======================== */
+.btn, 
+.call-to-action {
+    background: #3882f6;
+}
+
+.btn {
+    font-weight: 600;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+
+.btn-alt {
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+/* ========================
+Body
+======================== */
+.img-flex {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img-text {
+    flex: 0 0 auto;
+    width: 150px;
+    text-align: center;
+    font: 300 16px "Roboto", sans-serif;
+    color: #6d747d;
+}
+
+.img-container {
+    border: 2px solid #3882f6;
+    flex: 1 0 auto;
+    border-radius: 10px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font: 900 36px "Roboto", sans-serif;
+    color: #1f2937;
+    text-align: center;
+}
+
+/* ========================
+Quote
+======================== */
+.quote-section {
+    background: #e5e7eb;
+    padding: 80px 60px;
+}
+
+.quote {
+    font: 300 36px "Roboto", sans-serif;
+    font-style: italic;
+}
+
+.quote+span {
+    display: block;
+    color: black;
+    font: 700 24px "Roboto", sans-serif;
+    text-align: right;
+}
+
+/* ========================
+Call to action
+======================== */
+.call-to-action {
+    border-radius: 5px;
+    padding: 35px 90px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: #e5e7eb;
+}
+
+/* ========================
+Footer
+======================== */
+footer {
+    color: #f9faf8;
+    text-align: center;
+}
