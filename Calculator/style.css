@@ -6,3 +6,48 @@
 body {
     background: lightblue;
 }
+
+#frame {
+    background: gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 300px;
+}
+
+#display {
+    align-items: flex-end;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#btn-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn {
+    align-items: center;
+    background: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    height: 18%;
+    justify-content: center;
+    text-align: center;
+    width: 23%;
+}
