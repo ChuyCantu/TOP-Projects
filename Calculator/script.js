@@ -44,19 +44,6 @@ function AddOperator(oper) {
     
     operator = oper;
     UpdateResultDisplay();
-    // if (resultDisp.innerText === "")
-    //     result = entry;
-    // else {
-    //     if (operator !== "")
-    //         result = Operate(result, operator, entry);
-    //     else    
-    //         result = entry;
-    // }
-    
-    // operator = oper;
-    // entryDisp.innerText = "";
-    // entry = 0;
-    // UpdateResultDisplay();
 }
 
 function AddPointToEntry() {
