@@ -1,3 +1,5 @@
+// TODO: Add support for keyboard
+
 let result = 0;
 let entry = 0;
 let operator = '';
