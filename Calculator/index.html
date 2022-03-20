@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./style.css">
 
     <script src="./script.js" defer></script>
@@ -13,35 +18,37 @@
 <body>
     <div id="frame">
         <div id="display">
-            <div id="result"></div>
-            <div id="entry"></div>
+            <div id="result">123456</div>
+            <div id="entry">123456</div>
         </div>
 
         <div id="btn-container">
             <div id="c" class="btn">C</div>
             <div id="ce" class="btn">CE</div>
-            <div id="del" class="btn">DEL</div>
-            <div id="oper-div" class="btn">/</div>
+            <div id="del" class="btn">
+                <span class="material-icons-outlined">&#xe14a</span>
+            </div>
+            <div id="oper-div" class="btn oper">&#247;</div>
 
             <div class="btn num">7</div>
             <div class="btn num">8</div>
             <div class="btn num">9</div>
-            <div id="oper-mul" class="btn">*</div>
+            <div id="oper-mul" class="btn oper">&#215;</div>
 
             <div class="btn num">4</div>
             <div class="btn num">5</div>
             <div class="btn num">6</div>
-            <div id="oper-sub" class="btn">-</div>
+            <div id="oper-sub" class="btn oper">&#8722;</div>
 
             <div class="btn num">1</div>
             <div class="btn num">2</div>
             <div class="btn num">3</div>
-            <div id="oper-sum" class="btn">+</div>
+            <div id="oper-sum" class="btn oper">+</div>
 
-            <div id="plus-minus" class="btn">+/-</div>
+            <div id="plus-minus" class="btn">+/&#8722;</div>
             <div class="btn num">0</div>
             <div id="decimal" class="btn">.</div>
-            <div id="oper-eq" class="btn">=</div>
+            <div id="oper-eq" class="btn oper">=</div>
             
         </div>
     </div>
